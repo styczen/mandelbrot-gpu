@@ -50,5 +50,5 @@ if __name__ == '__main__':
     out_image = generate_mandelbrot_set_opencl(WIDTH, HEIGHT, MAX_ITER)
     end = time.perf_counter()
     print('Execution time:', end - start, 's')
-    save_pnm_image(out_image, 'mandelbrot_set_gpu.pnm')
+    save_pnm_image(out_image, 'mandelbrot_set_gpu_opencl.pnm')
 
